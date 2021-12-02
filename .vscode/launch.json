@@ -9,7 +9,7 @@
             "authentication": "Windows",
             "serverInstance": "DEV",
             "port": 7049, 
-            "schemaUpdateMode": "Synchronize"
+            "schemaUpdateMode": "ForceSync"
         }
     ]
 }

@@ -338,7 +338,7 @@ report 50001 "Sales Invoice"
                         column(LineDiscountAmount_SalesInvoiceLine; "Sales Invoice Line"."Line Discount Amount")
                         {
                         }
-                        column(UnitPrice_SalesInvoiceLine; "Sales Invoice Line"."Unit Price")
+                        column(UnitPrice_SalesInvoiceLine; "Sales Invoice Line".Amount)
                         {
                             AutoFormatExpression = GetCurrencyCode;
                         }

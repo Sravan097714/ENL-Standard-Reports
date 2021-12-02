@@ -8,11 +8,6 @@ pageextension 50021 PurchaseOrderList extends "Purchase Order List"
             {
                 ApplicationArea = all;
             }
-            field(ApprovedBy; ApprovedBy)
-            {
-                ApplicationArea = all;
-            }
-
 
         }
         modify("Purchaser Code")

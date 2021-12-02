@@ -11,10 +11,6 @@ pageextension 50037 PurchHeaderCard extends "Purchase Order"
                 Editable = false;
 
             }
-            field(ApprovedBy; ApprovedBy)
-            {
-                ApplicationArea = all;
-            }
             field("PostingDescription"; "Posting Description")
             {
                 ShowMandatory = NOT IsBlank;

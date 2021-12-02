@@ -8,12 +8,6 @@ tableextension 50004 PurchaseHdrExt extends "Purchase Header"
             TableRelation = User."Full Name";
             ValidateTableRelation = false;
         }
-        field(50029; ApprovedBy; Code[50])
-        {
-            FieldClass = FlowField;
-            Caption = 'Approved By';
-            CalcFormula = lookup("Approval Entry"."Approver ID" where("Document No." = field("No.")));
-        }
         modify("Purchaser Code")
         {
             Caption = 'Department Approver';
